@@ -12,8 +12,8 @@ FROM ubuntu:bionic
 LABEL maintainer="mail@lalber.org"
 
 ENV BIND_USER=bind \
-    BIND_VERSION=9.16.2 \
-    WEBMIN_VERSION=1.9 \
+    BIND_VERSION=9.16.5 \
+    WEBMIN_VERSION=1.953 \
     DATA_DIR=/data
 
 COPY --from=add-apt-repositories /etc/apt/trusted.gpg /etc/apt/trusted.gpg
